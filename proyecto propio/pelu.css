@@ -1,0 +1,130 @@
+*{  
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 30px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-between;
+}
+body{
+  background-color: #f3f2f1;
+}
+.topnav{
+height: 8vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 180px;
+}
+#ao-foto{
+  width: fit-content;
+  height: fit-content;
+}
+#logo{
+  width: 100px;
+height: 100px;
+float:left;
+}
+
+.topnav>ul
+{
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  box-shadow: 20px;
+  flex-direction: row;
+  width: fit-content;
+}
+.topnav ul li
+{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:hover
+{
+  font-weight: bold;
+}
+
+#nav2{
+  height: 8vh;
+width: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+#ul2{
+  align-items: center;
+  list-style-type: none;
+  margin: 0px;
+  box-shadow: 20px;
+  display: flex;
+  width: fit-content;
+  margin-right: 40px;
+}
+#ul2 li{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+a{
+  width: 100%;
+  color: white  ;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all .2s ease-in-out;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#fondo{
+  width: 100%;
+  overflow: hidden;
+}
+#fondovid{
+  width: 100%; 
+  transform: translate(0%,-20%);
+}
+
+section{
+  display: block;
+  margin-top: 4%;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  flex-direction: row;
+}
+
+article{
+  display: inline-block;
+}
+
+#articlediv{
+  box-shadow: 0px 0px 5px 0px black;
+  width: fit-content;
+  margin-right: 100px;
+  display: inline-block;
+  height: 100%;
+  margin-left: 10%;
+}
+#articleimg{
+  height: 100%;
+  width: 100%;
+}
+#articulo1{
+  vertical-align: top;
+  width: 20%;
+  margin-left: 200px;
+}
+h1{
+    font-size: 50px;
+    color: #151515;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
