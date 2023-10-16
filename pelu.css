@@ -111,7 +111,7 @@ article{
   margin-right: 100px;
   display: inline-block;
   height: 100%;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 #articleimg{
   height: 100%;
@@ -120,12 +120,14 @@ article{
 #articulo1{
   vertical-align: top;
   width: 20%;
-  margin-left: 200px;
+  margin-left: 4%;
+  
 }
 h1{
     font-size: 50px;
     color: #151515;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10%;
 }
 
 
