@@ -84,11 +84,11 @@ a{
 
 #fondo{
   width: 100%;
+  height: 60vh;
   overflow: hidden;
 }
 #fondovid{
   width: 100%; 
-  height: fit-content;
   transform: translate(0%,-20%);
 }
 
